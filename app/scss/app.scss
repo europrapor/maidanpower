@@ -1,0 +1,56 @@
+@import "settings";
+@import "foundation";
+
+$color-blue: #519fbd;
+$footer-height: 56px;
+
+html,
+body,
+.page {
+  height: 100%;
+}
+body {
+  background: #eaeef0;
+}
+
+.page {
+  margin: 0 0 (-$footer-height);
+}
+.page-header {
+  border-bottom: 4px solid $color-blue;
+  position: relative;
+
+  &,
+  .top-bar {
+    background: #242424;
+  }
+  .name a::after {
+    content: 'beta';
+    position: absolute;
+    top: -12px;
+    right: 0;
+    font-size: .6rem;
+    color: $color-blue;
+  }
+}
+.map-container {
+  border-bottom: 2px solid $color-blue;
+
+  #map {
+    height: 300px;
+  }
+}
+.content {
+  padding: 10px 0;
+  text-align: center;
+}
+.page-footer {
+  text-align: center;
+  padding: 15px 0 5px;
+  height: $footer-height;
+
+  p {
+    margin: 0;
+    line-height: 1rem;
+  }
+}

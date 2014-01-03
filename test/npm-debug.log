@@ -1,0 +1,829 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.15
+4 verbose node symlink /usr/bin/node
+5 warn package.json maidanpower@0.0.0 No description
+6 warn package.json maidanpower@0.0.0 No repository field.
+7 warn package.json maidanpower@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/home/roman01la/git/maidanpower',
+9 verbose install   [ 'grunt',
+9 verbose install     'grunt-contrib-copy',
+9 verbose install     'grunt-contrib-concat',
+9 verbose install     'grunt-contrib-uglify',
+9 verbose install     'grunt-contrib-compass',
+9 verbose install     'grunt-contrib-jshint',
+9 verbose install     'grunt-contrib-cssmin',
+9 verbose install     'grunt-contrib-connect',
+9 verbose install     'grunt-contrib-clean',
+9 verbose install     'grunt-contrib-htmlmin',
+9 verbose install     'grunt-bower-install',
+9 verbose install     'grunt-contrib-imagemin',
+9 verbose install     'grunt-contrib-watch',
+9 verbose install     'grunt-rev',
+9 verbose install     'grunt-autoprefixer',
+9 verbose install     'grunt-usemin',
+9 verbose install     'grunt-mocha',
+9 verbose install     'grunt-modernizr',
+9 verbose install     'grunt-newer',
+9 verbose install     'grunt-svgmin',
+9 verbose install     'grunt-concurrent',
+9 verbose install     'load-grunt-tasks',
+9 verbose install     'time-grunt',
+9 verbose install     'jshint-stylish',
+9 verbose install     'grunt-dalek' ] ]
+10 info preinstall maidanpower@0.0.0
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'grunt@~0.4.1', null ]
+13 verbose cache add name=undefined spec="grunt@~0.4.1" args=["grunt@~0.4.1",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'grunt@~0.4.1',
+14 verbose parsed url   path: 'grunt@~0.4.1',
+14 verbose parsed url   href: 'grunt@~0.4.1' }
+15 verbose cache add name="grunt" spec="~0.4.1" args=["grunt","~0.4.1"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '~0.4.1',
+16 verbose parsed url   path: '~0.4.1',
+16 verbose parsed url   href: '~0.4.1' }
+17 verbose addNamed [ 'grunt', '~0.4.1' ]
+18 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+19 verbose cache add [ 'grunt-contrib-copy@~0.4.1', null ]
+20 verbose cache add name=undefined spec="grunt-contrib-copy@~0.4.1" args=["grunt-contrib-copy@~0.4.1",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'grunt-contrib-copy@~0.4.1',
+21 verbose parsed url   path: 'grunt-contrib-copy@~0.4.1',
+21 verbose parsed url   href: 'grunt-contrib-copy@~0.4.1' }
+22 verbose cache add name="grunt-contrib-copy" spec="~0.4.1" args=["grunt-contrib-copy","~0.4.1"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '~0.4.1',
+23 verbose parsed url   path: '~0.4.1',
+23 verbose parsed url   href: '~0.4.1' }
+24 verbose addNamed [ 'grunt-contrib-copy', '~0.4.1' ]
+25 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+26 silly lockFile 766a3bd3-grunt-0-4-1 grunt@~0.4.1
+27 verbose lock grunt@~0.4.1 /home/roman01la/.npm/766a3bd3-grunt-0-4-1.lock
+28 silly lockFile c84f658a-grunt-contrib-copy-0-4-1 grunt-contrib-copy@~0.4.1
+29 verbose lock grunt-contrib-copy@~0.4.1 /home/roman01la/.npm/c84f658a-grunt-contrib-copy-0-4-1.lock
+30 verbose cache add [ 'grunt-contrib-uglify@~0.2.0', null ]
+31 verbose cache add name=undefined spec="grunt-contrib-uglify@~0.2.0" args=["grunt-contrib-uglify@~0.2.0",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'grunt-contrib-uglify@~0.2.0',
+32 verbose parsed url   path: 'grunt-contrib-uglify@~0.2.0',
+32 verbose parsed url   href: 'grunt-contrib-uglify@~0.2.0' }
+33 verbose cache add name="grunt-contrib-uglify" spec="~0.2.0" args=["grunt-contrib-uglify","~0.2.0"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '~0.2.0',
+34 verbose parsed url   path: '~0.2.0',
+34 verbose parsed url   href: '~0.2.0' }
+35 verbose addNamed [ 'grunt-contrib-uglify', '~0.2.0' ]
+36 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+37 silly lockFile 2cc6dac2-grunt-contrib-uglify-0-2-0 grunt-contrib-uglify@~0.2.0
+38 verbose lock grunt-contrib-uglify@~0.2.0 /home/roman01la/.npm/2cc6dac2-grunt-contrib-uglify-0-2-0.lock
+39 verbose cache add [ 'grunt-contrib-concat@~0.3.0', null ]
+40 verbose cache add name=undefined spec="grunt-contrib-concat@~0.3.0" args=["grunt-contrib-concat@~0.3.0",null]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: 'grunt-contrib-concat@~0.3.0',
+41 verbose parsed url   path: 'grunt-contrib-concat@~0.3.0',
+41 verbose parsed url   href: 'grunt-contrib-concat@~0.3.0' }
+42 verbose cache add name="grunt-contrib-concat" spec="~0.3.0" args=["grunt-contrib-concat","~0.3.0"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '~0.3.0',
+43 verbose parsed url   path: '~0.3.0',
+43 verbose parsed url   href: '~0.3.0' }
+44 verbose addNamed [ 'grunt-contrib-concat', '~0.3.0' ]
+45 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+46 silly lockFile 0e44e68e-grunt-contrib-concat-0-3-0 grunt-contrib-concat@~0.3.0
+47 verbose lock grunt-contrib-concat@~0.3.0 /home/roman01la/.npm/0e44e68e-grunt-contrib-concat-0-3-0.lock
+48 verbose cache add [ 'grunt-contrib-compass@~0.7.0', null ]
+49 verbose cache add name=undefined spec="grunt-contrib-compass@~0.7.0" args=["grunt-contrib-compass@~0.7.0",null]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: 'grunt-contrib-compass@~0.7.0',
+50 verbose parsed url   path: 'grunt-contrib-compass@~0.7.0',
+50 verbose parsed url   href: 'grunt-contrib-compass@~0.7.0' }
+51 verbose cache add name="grunt-contrib-compass" spec="~0.7.0" args=["grunt-contrib-compass","~0.7.0"]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: '~0.7.0',
+52 verbose parsed url   path: '~0.7.0',
+52 verbose parsed url   href: '~0.7.0' }
+53 verbose addNamed [ 'grunt-contrib-compass', '~0.7.0' ]
+54 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+55 silly lockFile 089c3a2f-grunt-contrib-compass-0-7-0 grunt-contrib-compass@~0.7.0
+56 verbose lock grunt-contrib-compass@~0.7.0 /home/roman01la/.npm/089c3a2f-grunt-contrib-compass-0-7-0.lock
+57 verbose cache add [ 'grunt-contrib-jshint@~0.7.0', null ]
+58 verbose cache add name=undefined spec="grunt-contrib-jshint@~0.7.0" args=["grunt-contrib-jshint@~0.7.0",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'grunt-contrib-jshint@~0.7.0',
+59 verbose parsed url   path: 'grunt-contrib-jshint@~0.7.0',
+59 verbose parsed url   href: 'grunt-contrib-jshint@~0.7.0' }
+60 verbose cache add name="grunt-contrib-jshint" spec="~0.7.0" args=["grunt-contrib-jshint","~0.7.0"]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '~0.7.0',
+61 verbose parsed url   path: '~0.7.0',
+61 verbose parsed url   href: '~0.7.0' }
+62 verbose addNamed [ 'grunt-contrib-jshint', '~0.7.0' ]
+63 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+64 silly lockFile c1ebcc7c-grunt-contrib-jshint-0-7-0 grunt-contrib-jshint@~0.7.0
+65 verbose lock grunt-contrib-jshint@~0.7.0 /home/roman01la/.npm/c1ebcc7c-grunt-contrib-jshint-0-7-0.lock
+66 verbose cache add [ 'grunt-contrib-cssmin@~0.7.0', null ]
+67 verbose cache add name=undefined spec="grunt-contrib-cssmin@~0.7.0" args=["grunt-contrib-cssmin@~0.7.0",null]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'grunt-contrib-cssmin@~0.7.0',
+68 verbose parsed url   path: 'grunt-contrib-cssmin@~0.7.0',
+68 verbose parsed url   href: 'grunt-contrib-cssmin@~0.7.0' }
+69 verbose cache add name="grunt-contrib-cssmin" spec="~0.7.0" args=["grunt-contrib-cssmin","~0.7.0"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: '~0.7.0',
+70 verbose parsed url   path: '~0.7.0',
+70 verbose parsed url   href: '~0.7.0' }
+71 verbose addNamed [ 'grunt-contrib-cssmin', '~0.7.0' ]
+72 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+73 silly lockFile 77b758e3-grunt-contrib-cssmin-0-7-0 grunt-contrib-cssmin@~0.7.0
+74 verbose lock grunt-contrib-cssmin@~0.7.0 /home/roman01la/.npm/77b758e3-grunt-contrib-cssmin-0-7-0.lock
+75 verbose cache add [ 'grunt-contrib-connect@~0.5.0', null ]
+76 verbose cache add name=undefined spec="grunt-contrib-connect@~0.5.0" args=["grunt-contrib-connect@~0.5.0",null]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'grunt-contrib-connect@~0.5.0',
+77 verbose parsed url   path: 'grunt-contrib-connect@~0.5.0',
+77 verbose parsed url   href: 'grunt-contrib-connect@~0.5.0' }
+78 verbose cache add name="grunt-contrib-connect" spec="~0.5.0" args=["grunt-contrib-connect","~0.5.0"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '~0.5.0',
+79 verbose parsed url   path: '~0.5.0',
+79 verbose parsed url   href: '~0.5.0' }
+80 verbose addNamed [ 'grunt-contrib-connect', '~0.5.0' ]
+81 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+82 silly lockFile bc7bae3b-grunt-contrib-connect-0-5-0 grunt-contrib-connect@~0.5.0
+83 verbose lock grunt-contrib-connect@~0.5.0 /home/roman01la/.npm/bc7bae3b-grunt-contrib-connect-0-5-0.lock
+84 verbose cache add [ 'grunt-contrib-clean@~0.5.0', null ]
+85 verbose cache add name=undefined spec="grunt-contrib-clean@~0.5.0" args=["grunt-contrib-clean@~0.5.0",null]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: 'grunt-contrib-clean@~0.5.0',
+86 verbose parsed url   path: 'grunt-contrib-clean@~0.5.0',
+86 verbose parsed url   href: 'grunt-contrib-clean@~0.5.0' }
+87 verbose cache add name="grunt-contrib-clean" spec="~0.5.0" args=["grunt-contrib-clean","~0.5.0"]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: '~0.5.0',
+88 verbose parsed url   path: '~0.5.0',
+88 verbose parsed url   href: '~0.5.0' }
+89 verbose addNamed [ 'grunt-contrib-clean', '~0.5.0' ]
+90 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+91 silly lockFile 83f743bc-grunt-contrib-clean-0-5-0 grunt-contrib-clean@~0.5.0
+92 verbose lock grunt-contrib-clean@~0.5.0 /home/roman01la/.npm/83f743bc-grunt-contrib-clean-0-5-0.lock
+93 verbose cache add [ 'grunt-contrib-htmlmin@~0.1.3', null ]
+94 verbose cache add name=undefined spec="grunt-contrib-htmlmin@~0.1.3" args=["grunt-contrib-htmlmin@~0.1.3",null]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: 'grunt-contrib-htmlmin@~0.1.3',
+95 verbose parsed url   path: 'grunt-contrib-htmlmin@~0.1.3',
+95 verbose parsed url   href: 'grunt-contrib-htmlmin@~0.1.3' }
+96 verbose cache add name="grunt-contrib-htmlmin" spec="~0.1.3" args=["grunt-contrib-htmlmin","~0.1.3"]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: '~0.1.3',
+97 verbose parsed url   path: '~0.1.3',
+97 verbose parsed url   href: '~0.1.3' }
+98 verbose addNamed [ 'grunt-contrib-htmlmin', '~0.1.3' ]
+99 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+100 silly lockFile 2f1223f9-grunt-contrib-htmlmin-0-1-3 grunt-contrib-htmlmin@~0.1.3
+101 verbose lock grunt-contrib-htmlmin@~0.1.3 /home/roman01la/.npm/2f1223f9-grunt-contrib-htmlmin-0-1-3.lock
+102 verbose cache add [ 'grunt-bower-install@~0.7.0', null ]
+103 verbose cache add name=undefined spec="grunt-bower-install@~0.7.0" args=["grunt-bower-install@~0.7.0",null]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: 'grunt-bower-install@~0.7.0',
+104 verbose parsed url   path: 'grunt-bower-install@~0.7.0',
+104 verbose parsed url   href: 'grunt-bower-install@~0.7.0' }
+105 verbose cache add name="grunt-bower-install" spec="~0.7.0" args=["grunt-bower-install","~0.7.0"]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '~0.7.0',
+106 verbose parsed url   path: '~0.7.0',
+106 verbose parsed url   href: '~0.7.0' }
+107 verbose addNamed [ 'grunt-bower-install', '~0.7.0' ]
+108 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+109 silly lockFile 26c9e109-grunt-bower-install-0-7-0 grunt-bower-install@~0.7.0
+110 verbose lock grunt-bower-install@~0.7.0 /home/roman01la/.npm/26c9e109-grunt-bower-install-0-7-0.lock
+111 verbose cache add [ 'grunt-contrib-imagemin@~0.2.0', null ]
+112 verbose cache add name=undefined spec="grunt-contrib-imagemin@~0.2.0" args=["grunt-contrib-imagemin@~0.2.0",null]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'grunt-contrib-imagemin@~0.2.0',
+113 verbose parsed url   path: 'grunt-contrib-imagemin@~0.2.0',
+113 verbose parsed url   href: 'grunt-contrib-imagemin@~0.2.0' }
+114 verbose cache add name="grunt-contrib-imagemin" spec="~0.2.0" args=["grunt-contrib-imagemin","~0.2.0"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '~0.2.0',
+115 verbose parsed url   path: '~0.2.0',
+115 verbose parsed url   href: '~0.2.0' }
+116 verbose addNamed [ 'grunt-contrib-imagemin', '~0.2.0' ]
+117 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+118 silly lockFile 65f7368c-grunt-contrib-imagemin-0-2-0 grunt-contrib-imagemin@~0.2.0
+119 verbose lock grunt-contrib-imagemin@~0.2.0 /home/roman01la/.npm/65f7368c-grunt-contrib-imagemin-0-2-0.lock
+120 verbose cache add [ 'grunt-contrib-watch@~0.5.2', null ]
+121 verbose cache add name=undefined spec="grunt-contrib-watch@~0.5.2" args=["grunt-contrib-watch@~0.5.2",null]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'grunt-contrib-watch@~0.5.2',
+122 verbose parsed url   path: 'grunt-contrib-watch@~0.5.2',
+122 verbose parsed url   href: 'grunt-contrib-watch@~0.5.2' }
+123 verbose cache add name="grunt-contrib-watch" spec="~0.5.2" args=["grunt-contrib-watch","~0.5.2"]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: '~0.5.2',
+124 verbose parsed url   path: '~0.5.2',
+124 verbose parsed url   href: '~0.5.2' }
+125 verbose addNamed [ 'grunt-contrib-watch', '~0.5.2' ]
+126 verbose addNamed [ null, '>=0.5.2-0 <0.6.0-0' ]
+127 silly lockFile a6069a13-grunt-contrib-watch-0-5-2 grunt-contrib-watch@~0.5.2
+128 verbose lock grunt-contrib-watch@~0.5.2 /home/roman01la/.npm/a6069a13-grunt-contrib-watch-0-5-2.lock
+129 verbose cache add [ 'grunt-rev@~0.1.0', null ]
+130 verbose cache add name=undefined spec="grunt-rev@~0.1.0" args=["grunt-rev@~0.1.0",null]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: 'grunt-rev@~0.1.0',
+131 verbose parsed url   path: 'grunt-rev@~0.1.0',
+131 verbose parsed url   href: 'grunt-rev@~0.1.0' }
+132 verbose cache add name="grunt-rev" spec="~0.1.0" args=["grunt-rev","~0.1.0"]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '~0.1.0',
+133 verbose parsed url   path: '~0.1.0',
+133 verbose parsed url   href: '~0.1.0' }
+134 verbose addNamed [ 'grunt-rev', '~0.1.0' ]
+135 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+136 silly lockFile a3a49760-grunt-rev-0-1-0 grunt-rev@~0.1.0
+137 verbose lock grunt-rev@~0.1.0 /home/roman01la/.npm/a3a49760-grunt-rev-0-1-0.lock
+138 verbose cache add [ 'grunt-autoprefixer@~0.5.0', null ]
+139 verbose cache add name=undefined spec="grunt-autoprefixer@~0.5.0" args=["grunt-autoprefixer@~0.5.0",null]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: 'grunt-autoprefixer@~0.5.0',
+140 verbose parsed url   path: 'grunt-autoprefixer@~0.5.0',
+140 verbose parsed url   href: 'grunt-autoprefixer@~0.5.0' }
+141 verbose cache add name="grunt-autoprefixer" spec="~0.5.0" args=["grunt-autoprefixer","~0.5.0"]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: '~0.5.0',
+142 verbose parsed url   path: '~0.5.0',
+142 verbose parsed url   href: '~0.5.0' }
+143 verbose addNamed [ 'grunt-autoprefixer', '~0.5.0' ]
+144 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+145 silly lockFile 4e39e220-grunt-autoprefixer-0-5-0 grunt-autoprefixer@~0.5.0
+146 verbose lock grunt-autoprefixer@~0.5.0 /home/roman01la/.npm/4e39e220-grunt-autoprefixer-0-5-0.lock
+147 verbose cache add [ 'grunt-usemin@~2.0.0', null ]
+148 verbose cache add name=undefined spec="grunt-usemin@~2.0.0" args=["grunt-usemin@~2.0.0",null]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: 'grunt-usemin@~2.0.0',
+149 verbose parsed url   path: 'grunt-usemin@~2.0.0',
+149 verbose parsed url   href: 'grunt-usemin@~2.0.0' }
+150 verbose cache add name="grunt-usemin" spec="~2.0.0" args=["grunt-usemin","~2.0.0"]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: '~2.0.0',
+151 verbose parsed url   path: '~2.0.0',
+151 verbose parsed url   href: '~2.0.0' }
+152 verbose addNamed [ 'grunt-usemin', '~2.0.0' ]
+153 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+154 silly lockFile d4f70bcd-grunt-usemin-2-0-0 grunt-usemin@~2.0.0
+155 verbose lock grunt-usemin@~2.0.0 /home/roman01la/.npm/d4f70bcd-grunt-usemin-2-0-0.lock
+156 verbose cache add [ 'grunt-mocha@~0.4.0', null ]
+157 verbose cache add name=undefined spec="grunt-mocha@~0.4.0" args=["grunt-mocha@~0.4.0",null]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: 'grunt-mocha@~0.4.0',
+158 verbose parsed url   path: 'grunt-mocha@~0.4.0',
+158 verbose parsed url   href: 'grunt-mocha@~0.4.0' }
+159 verbose cache add name="grunt-mocha" spec="~0.4.0" args=["grunt-mocha","~0.4.0"]
+160 verbose parsed url { protocol: null,
+160 verbose parsed url   slashes: null,
+160 verbose parsed url   auth: null,
+160 verbose parsed url   host: null,
+160 verbose parsed url   port: null,
+160 verbose parsed url   hostname: null,
+160 verbose parsed url   hash: null,
+160 verbose parsed url   search: null,
+160 verbose parsed url   query: null,
+160 verbose parsed url   pathname: '~0.4.0',
+160 verbose parsed url   path: '~0.4.0',
+160 verbose parsed url   href: '~0.4.0' }
+161 verbose addNamed [ 'grunt-mocha', '~0.4.0' ]
+162 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+163 silly lockFile 4854fb45-grunt-mocha-0-4-0 grunt-mocha@~0.4.0
+164 verbose lock grunt-mocha@~0.4.0 /home/roman01la/.npm/4854fb45-grunt-mocha-0-4-0.lock
+165 verbose cache add [ 'grunt-modernizr@~0.4.0', null ]
+166 verbose cache add name=undefined spec="grunt-modernizr@~0.4.0" args=["grunt-modernizr@~0.4.0",null]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: 'grunt-modernizr@~0.4.0',
+167 verbose parsed url   path: 'grunt-modernizr@~0.4.0',
+167 verbose parsed url   href: 'grunt-modernizr@~0.4.0' }
+168 verbose cache add name="grunt-modernizr" spec="~0.4.0" args=["grunt-modernizr","~0.4.0"]
+169 verbose parsed url { protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: '~0.4.0',
+169 verbose parsed url   path: '~0.4.0',
+169 verbose parsed url   href: '~0.4.0' }
+170 verbose addNamed [ 'grunt-modernizr', '~0.4.0' ]
+171 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+172 silly lockFile f9db92e6-grunt-modernizr-0-4-0 grunt-modernizr@~0.4.0
+173 verbose lock grunt-modernizr@~0.4.0 /home/roman01la/.npm/f9db92e6-grunt-modernizr-0-4-0.lock
+174 verbose cache add [ 'grunt-newer@~0.6.0', null ]
+175 verbose cache add name=undefined spec="grunt-newer@~0.6.0" args=["grunt-newer@~0.6.0",null]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: 'grunt-newer@~0.6.0',
+176 verbose parsed url   path: 'grunt-newer@~0.6.0',
+176 verbose parsed url   href: 'grunt-newer@~0.6.0' }
+177 verbose cache add name="grunt-newer" spec="~0.6.0" args=["grunt-newer","~0.6.0"]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: '~0.6.0',
+178 verbose parsed url   path: '~0.6.0',
+178 verbose parsed url   href: '~0.6.0' }
+179 verbose addNamed [ 'grunt-newer', '~0.6.0' ]
+180 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+181 silly lockFile c36710c7-grunt-newer-0-6-0 grunt-newer@~0.6.0
+182 verbose lock grunt-newer@~0.6.0 /home/roman01la/.npm/c36710c7-grunt-newer-0-6-0.lock
+183 verbose cache add [ 'grunt-svgmin@~0.2.0', null ]
+184 verbose cache add name=undefined spec="grunt-svgmin@~0.2.0" args=["grunt-svgmin@~0.2.0",null]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: 'grunt-svgmin@~0.2.0',
+185 verbose parsed url   path: 'grunt-svgmin@~0.2.0',
+185 verbose parsed url   href: 'grunt-svgmin@~0.2.0' }
+186 verbose cache add name="grunt-svgmin" spec="~0.2.0" args=["grunt-svgmin","~0.2.0"]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: '~0.2.0',
+187 verbose parsed url   path: '~0.2.0',
+187 verbose parsed url   href: '~0.2.0' }
+188 verbose addNamed [ 'grunt-svgmin', '~0.2.0' ]
+189 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+190 silly lockFile fefef466-grunt-svgmin-0-2-0 grunt-svgmin@~0.2.0
+191 verbose lock grunt-svgmin@~0.2.0 /home/roman01la/.npm/fefef466-grunt-svgmin-0-2-0.lock
+192 verbose cache add [ 'grunt-concurrent@~0.4.0', null ]
+193 verbose cache add name=undefined spec="grunt-concurrent@~0.4.0" args=["grunt-concurrent@~0.4.0",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'grunt-concurrent@~0.4.0',
+194 verbose parsed url   path: 'grunt-concurrent@~0.4.0',
+194 verbose parsed url   href: 'grunt-concurrent@~0.4.0' }
+195 verbose cache add name="grunt-concurrent" spec="~0.4.0" args=["grunt-concurrent","~0.4.0"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '~0.4.0',
+196 verbose parsed url   path: '~0.4.0',
+196 verbose parsed url   href: '~0.4.0' }
+197 verbose addNamed [ 'grunt-concurrent', '~0.4.0' ]
+198 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+199 silly lockFile 7dd5095f-grunt-concurrent-0-4-0 grunt-concurrent@~0.4.0
+200 verbose lock grunt-concurrent@~0.4.0 /home/roman01la/.npm/7dd5095f-grunt-concurrent-0-4-0.lock
+201 verbose cache add [ 'load-grunt-tasks@~0.2.0', null ]
+202 verbose cache add name=undefined spec="load-grunt-tasks@~0.2.0" args=["load-grunt-tasks@~0.2.0",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'load-grunt-tasks@~0.2.0',
+203 verbose parsed url   path: 'load-grunt-tasks@~0.2.0',
+203 verbose parsed url   href: 'load-grunt-tasks@~0.2.0' }
+204 verbose cache add name="load-grunt-tasks" spec="~0.2.0" args=["load-grunt-tasks","~0.2.0"]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: '~0.2.0',
+205 verbose parsed url   path: '~0.2.0',
+205 verbose parsed url   href: '~0.2.0' }
+206 verbose addNamed [ 'load-grunt-tasks', '~0.2.0' ]
+207 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+208 silly lockFile 2a94459b-load-grunt-tasks-0-2-0 load-grunt-tasks@~0.2.0
+209 verbose lock load-grunt-tasks@~0.2.0 /home/roman01la/.npm/2a94459b-load-grunt-tasks-0-2-0.lock
+210 verbose cache add [ 'time-grunt@~0.2.0', null ]
+211 verbose cache add name=undefined spec="time-grunt@~0.2.0" args=["time-grunt@~0.2.0",null]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: 'time-grunt@~0.2.0',
+212 verbose parsed url   path: 'time-grunt@~0.2.0',
+212 verbose parsed url   href: 'time-grunt@~0.2.0' }
+213 verbose cache add name="time-grunt" spec="~0.2.0" args=["time-grunt","~0.2.0"]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: '~0.2.0',
+214 verbose parsed url   path: '~0.2.0',
+214 verbose parsed url   href: '~0.2.0' }
+215 verbose addNamed [ 'time-grunt', '~0.2.0' ]
+216 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+217 silly lockFile 8738474a-time-grunt-0-2-0 time-grunt@~0.2.0
+218 verbose lock time-grunt@~0.2.0 /home/roman01la/.npm/8738474a-time-grunt-0-2-0.lock
+219 verbose cache add [ 'jshint-stylish@~0.1.3', null ]
+220 verbose cache add name=undefined spec="jshint-stylish@~0.1.3" args=["jshint-stylish@~0.1.3",null]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: 'jshint-stylish@~0.1.3',
+221 verbose parsed url   path: 'jshint-stylish@~0.1.3',
+221 verbose parsed url   href: 'jshint-stylish@~0.1.3' }
+222 verbose cache add name="jshint-stylish" spec="~0.1.3" args=["jshint-stylish","~0.1.3"]
+223 verbose parsed url { protocol: null,
+223 verbose parsed url   slashes: null,
+223 verbose parsed url   auth: null,
+223 verbose parsed url   host: null,
+223 verbose parsed url   port: null,
+223 verbose parsed url   hostname: null,
+223 verbose parsed url   hash: null,
+223 verbose parsed url   search: null,
+223 verbose parsed url   query: null,
+223 verbose parsed url   pathname: '~0.1.3',
+223 verbose parsed url   path: '~0.1.3',
+223 verbose parsed url   href: '~0.1.3' }
+224 verbose addNamed [ 'jshint-stylish', '~0.1.3' ]
+225 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+226 silly lockFile fe42dd62-jshint-stylish-0-1-3 jshint-stylish@~0.1.3
+227 verbose lock jshint-stylish@~0.1.3 /home/roman01la/.npm/fe42dd62-jshint-stylish-0-1-3.lock
+228 verbose cache add [ 'grunt-dalek@~0.1.0', null ]
+229 verbose cache add name=undefined spec="grunt-dalek@~0.1.0" args=["grunt-dalek@~0.1.0",null]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: 'grunt-dalek@~0.1.0',
+230 verbose parsed url   path: 'grunt-dalek@~0.1.0',
+230 verbose parsed url   href: 'grunt-dalek@~0.1.0' }
+231 verbose cache add name="grunt-dalek" spec="~0.1.0" args=["grunt-dalek","~0.1.0"]
+232 verbose parsed url { protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: '~0.1.0',
+232 verbose parsed url   path: '~0.1.0',
+232 verbose parsed url   href: '~0.1.0' }
+233 verbose addNamed [ 'grunt-dalek', '~0.1.0' ]
+234 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+235 silly lockFile 8a1747fd-grunt-dalek-0-1-0 grunt-dalek@~0.1.0
+236 verbose lock grunt-dalek@~0.1.0 /home/roman01la/.npm/8a1747fd-grunt-dalek-0-1-0.lock
+237 silly lockFile 766a3bd3-grunt-0-4-1 grunt@~0.4.1
+238 error Error: EACCES, open '/home/roman01la/.npm/766a3bd3-grunt-0-4-1.lock'
+238 error  { [Error: EACCES, open '/home/roman01la/.npm/766a3bd3-grunt-0-4-1.lock']
+238 error   errno: 3,
+238 error   code: 'EACCES',
+238 error   path: '/home/roman01la/.npm/766a3bd3-grunt-0-4-1.lock' }
+239 error Please try running this command again as root/Administrator.
+240 error System Linux 3.11.0-14-generic
+241 error command "node" "/usr/bin/npm" "install"
+242 error cwd /home/roman01la/git/maidanpower/test
+243 error node -v v0.10.15
+244 error npm -v 1.3.21
+245 error path /home/roman01la/.npm/766a3bd3-grunt-0-4-1.lock
+246 error code EACCES
+247 error errno 3
+248 error stack Error: EACCES, open '/home/roman01la/.npm/766a3bd3-grunt-0-4-1.lock'
+249 verbose exit [ 3, true ]
