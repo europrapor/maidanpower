@@ -233,6 +233,20 @@ module.exports = function(grunt) {
         cwd: '<%= yeoman.app %>/styles',
         dest: '.tmp/styles/',
         src: '{,*/}*.css'
+      },
+      wintercss: {
+        expand: true,
+        dot: true,
+        cwd: '<%= yeoman.dist %>/styles',
+        dest: 'static/contents/styles',
+        src: '{,*/}*.css'
+      },
+      winterjs: {
+        expand: true,
+        dot: true,
+        cwd: '<%= yeoman.dist %>/scripts',
+        dest: 'static/contents/scripts',
+        src: '{,*/}*.js'
       }
     },
     modernizr: {
@@ -300,7 +314,9 @@ module.exports = function(grunt) {
     'uglify',
     'modernizr',
     'copy:dist',
-    'rev',
+    'copy:wintercss',
+    'copy:winterjs',
+    // 'rev',
     'usemin'
   ]);
 
