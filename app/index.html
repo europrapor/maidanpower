@@ -32,7 +32,7 @@
 
             <!-- Left Nav Section -->
             <ul class="left">
-              <li><a href="#">Euromaidan</a></li>
+              <li><a href="/euromaidan.html">Euromaidan</a></li>
               <li><a href="#">Application</a></li>
               <li><a href="#">News</a></li>
               <li><a href="/about.html">About</a></li>
@@ -75,8 +75,15 @@
   <script>
     /* global OpenLayers */
 
-    var map = new OpenLayers.Map('map');
-    var pointLayer = new OpenLayers.Layer.Vector('Point Layer');
+    var map = new OpenLayers.Map('map', {
+      theme: null
+    }),
+    pointLayer = new OpenLayers.Layer.Vector('Point Layer'),
+    ws = new WebSocket('ws://maidanpower.org:666');
+
+    ws.onmessage = function (message) {
+      drawRecentCheckins([JSON.parse(message.data)]);
+    };
 
     $.get('http://devel.api.maidanpower.org/map', function (res) {
       drawRecentCheckins(res);
