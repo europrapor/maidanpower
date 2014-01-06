@@ -82,7 +82,7 @@
     ws = new WebSocket('ws://maidanpower.org:666');
 
     ws.onmessage = function (message) {
-      drawRecentCheckins([JSON.parse(message.data)]);
+      drawRecentCheckins(JSON.parse(message.data));
     };
 
     $.get('http://devel.api.maidanpower.org/map', function (res) {
