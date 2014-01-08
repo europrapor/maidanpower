@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
   <title>MaidanPower</title>
   <!-- build:css(.tmp) styles/app.css -->
   <link rel="stylesheet" href="styles/app.css" />
@@ -13,48 +13,46 @@
 </head>
 <body>
 
-  <section class="page">
-    <header class="page-header">
-      <div class="row">
-        <nav class="top-bar offcanvas" data-topbar>
-          <ul class="title-area">
-            <li class="name">
-              <h1><a href="/">MaidanPower</a></h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  <header class="page-header">
+    <div class="row">
+      <nav class="top-bar offcanvas" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="/">MaidanPower</a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li><a href="#">Contacts</a></li>
           </ul>
 
-          <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-              <li><a href="#">Contacts</a></li>
-            </ul>
+          <!-- Left Nav Section -->
+          <ul class="left">
+            <li><a href="/euromaidan.html">Euromaidan</a></li>
+            <li><a href="#">Application</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+  </header>
 
-            <!-- Left Nav Section -->
-            <ul class="left">
-              <li><a href="/euromaidan.html">Euromaidan</a></li>
-              <li><a href="#">Application</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="/about.html">About</a></li>
-            </ul>
-          </section>
-        </nav>
+  <section class="map-container">
+    <div id="map"></div>
+  </section>
+
+  <section class="content center">
+    <div class="row">
+      <div class="large-8 large-centered columns">
+        <h3>MaidanPower</h3>
+        <p>We have designed a web application which allows everyone to contribute to <a href="https://twitter.com/search?q=%23euromaidan">#euromaidan</a> movement using digital tools and to help each other by having a feedback about the mood around us.</p>
+        <a href="#" class="button small">Learn More</a>
       </div>
-    </header>
-
-    <section class="map-container">
-      <div id="map"></div>
-    </section>
-
-    <section class="content center">
-      <div class="row">
-        <div class="large-8 large-centered columns">
-          <h3>MaidanPower</h3>
-          <p>We have designed a web application which allows everyone to contribute to <a href="https://twitter.com/search?q=%23euromaidan">#euromaidan</a> movement using digital tools and to help each other by having a feedback about the mood around us.</p>
-          <a href="#" class="button small">Learn More</a>
-        </div>
-      </div>
-    </section>
+    </div>
   </section>
 
   <footer class="page-footer">
@@ -78,12 +76,15 @@
     var map = new OpenLayers.Map('map', {
       theme: null
     }),
-    pointLayer = new OpenLayers.Layer.Vector('Point Layer'),
-    ws = new WebSocket('ws://maidanpower.org:666');
+    pointLayer = new OpenLayers.Layer.Vector('Point Layer');
 
-    ws.onmessage = function (message) {
-      drawRecentCheckins(JSON.parse(message.data));
-    };
+    if ('WebSocket' in window) {
+      var ws = new WebSocket('ws://maidanpower.org:666');
+
+      ws.onmessage = function (message) {
+        drawRecentCheckins(JSON.parse(message.data));
+      };
+    }
 
     $.get('http://devel.api.maidanpower.org/map', function (res) {
       drawRecentCheckins(res);

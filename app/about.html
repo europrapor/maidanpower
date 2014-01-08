@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
   <title>About | MaidanPower</title>
   <!-- build:css(.tmp) styles/app.css -->
   <link rel="stylesheet" href="styles/app.css" />
@@ -13,41 +13,58 @@
 </head>
 <body>
 
-  <section class="page">
-    <header class="page-header">
-      <div class="row">
-        <nav class="top-bar offcanvas" data-topbar>
-          <ul class="title-area">
-            <li class="name">
-              <h1><a href="/">MaidanPower</a></h1>
-            </li>
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  <header class="page-header">
+    <div class="row">
+      <nav class="top-bar offcanvas" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="/">MaidanPower</a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li><a href="#">Contacts</a></li>
           </ul>
 
-          <section class="top-bar-section">
-            <!-- Right Nav Section -->
-            <ul class="right">
-              <li><a href="#">Contacts</a></li>
-            </ul>
+          <!-- Left Nav Section -->
+          <ul class="left">
+            <li><a href="/euromaidan.html">Euromaidan</a></li>
+            <li><a href="#">Application</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+  </header>
 
-            <!-- Left Nav Section -->
-            <ul class="left">
-              <li><a href="#">Euromaidan</a></li>
-              <li><a href="#">Application</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="/about.html">About</a></li>
-            </ul>
-          </section>
-        </nav>
-      </div>
-    </header>
+  <section class="content row">
+    <h2>MaidanPower</h2>
 
-    <section class="content">
-      <p>The <strong>Euromaidan</strong> is a wave of demonstrations and civil unrest in Ukraine, which began on the night of 21 November 2013 with very large public protests demanding closer European integration. The scope of the protests has since evolved, with many calls for the resignation of President Yanukovych and his government. Protesters also have stated they joined because of the dispersal of protesters on 30 November and "a will to change life in Ukraine".</p>
-      <p>The demonstrations began on the night of 21 November 2013, when spontaneous protests erupted in the capital of Kiev after the Ukrainian government suspended preparations for signing an Association Agreement and Deep and Comprehensive Free Trade Agreement with the European Union. After a few days of demonstrations an increasing number of university students joined the protests.</p>
-      <p>The protests are ongoing despite a heavy police presence, regular sub-zero temperatures, and snow. Escalating violence in the early morning of 30 November from government forces has caused the level of protests to rise, with 400,000–800,000 protesters demonstrating in Kiev on the weekends of 1 December and 8 December. On Sunday 22 December this number had dropped to 100,000. In a poll taken on 7 and 8 December, 73% of protesters had committed to continue protesting in Kiev as long as needed until their demands are fulfilled. In a poll taken late December 2013 50% of Ukrainians stated they didn't support Euromaidan, while 45% did support it. The biggest support for the protest can be found in Kiev (about 75%) and western Ukraine (more than 80%).</p>
-      <p>The project we are working on is a web app where people share feedback about the area they are in, and their feelings and emotions in current place and time. We have one layer to confirm the questionable size of a crowd, but also it lets the people contribute to the euromaidan movement even if they have to work or need to stay home. Another layer represents the feelings and emotions of the people, and also allows people to organize themselves, and to provide a targeted support.</p>
-    </section>
+    <p><strong>MaidanPower</strong> is a web app where people share feedback about the area they are in, and their feelings and emotions in current place and time. We have one layer to confirm the questionable size of a crowd, but also it lets the people contribute to the euromaidan movement even if they have to work or need to stay home. Another layer represents the feelings and emotions of the people, and also allows people to organize themselves, and to provide a targeted support.</p>
+
+    <h3>How to use?</h3>
+    <p>On the main screen there's a list of range sliders where you can set your current emotional status, desired privacy level and perform check-in in order to share your location and emotions with a crowd.</p>
+
+    <p><img src="images/application/home-view.jpg" alt="Home View" width="320"></p>
+
+    <h4>Emotions</h4>
+    <p>Sharing your emotions helps to determine current status of average people mood in particular area. It means that everyone can find out potentially dangerous area or the one in need of your help and support. Thus this data helps people to be organized and informed instantly.</p>
+
+    <h4>Privacy</h4>
+    <p><strong>This kind of information can be used in both good and bad intentions. We don't want to let anybody to be able to use this data in such despicable way. Firstly think twice before sharing your location and then use privacy to make sure you are safe.</strong></p>
+    <p><strong>The level of privacy represents whether your location will be displayed on the map or not. It depends on a number of already checked-in people in your area. The lowest level possibly means that eneryone will know your current location, it will be available even if no one has checked-in around you. Do not check-in with 0 privacy unless you sure that you are completely safe!</strong></p>
+
+    <h3>Maps</h3>
+    <p>We have two maps to visualize the data: Density and Emotion map. The first one is a heat map that represents a size of the crowd across different areas. The second map includes number of layers where each layer belongs to one of the available emotions. You can switch between layers to see a map of interested emotional status around the world.</p>
+
+    <p>
+      <img src="images/application/density-map-view.jpg" alt="Density Map View" width="320">
+      <img src="images/application/emotion-map-view.jpg" alt="Emotion Map View" width="320">
+    </p>
   </section>
 
   <footer class="page-footer">
